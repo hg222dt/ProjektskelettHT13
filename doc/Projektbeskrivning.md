@@ -56,6 +56,8 @@ I form av api:er från google fonts, komemr vi även att imortera externa typsni
 ###CSS
 Två stycken stillmallsdokument kommer att skapas. Ett kommer användas till mobila enheter (dvs enheter med mindra skärmbredd) samt ett annat kommer att användas till normala skärmstorlekar på datorer.
 
+####SASS
+Användning av CSS-extention SASS kommer troligtvis att ske. Främst i syfte att lära sig mer om det.
 
 ####Animationer
 Vi kommer att försöka skapa en skön, mjuk upplevelse och kommer därför att använda oss av ett par animationer. Dels i menyn till navigeringen av siten och dels i syfte att skapa ett slags fotoalbum, med en mjuk användarupplevelse.
