@@ -4,8 +4,6 @@ Projektmedlemmar:
 
 [Exekverbar version av projektet](http://tstjostudent.github.io/Projektet)
 
-*Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
-
 ## Beskrivning av projektet
 Syftet kommer vara att skapa en site för att lansera och sälja en konsumentprodukt. Siten ska fungera som en kampanj-site, med funktionalitet för kunna beställa produkten. Kundens beställning kommer att kunna göras via siten, men i grunden är det en annan underleverantör som direkt tar emot alla uppgifter kring respektive order, och sköter allting därefter.
 
