@@ -2,7 +2,8 @@
 Projektmedlemmar: 
 [hg222dt](https://github.com/hg222dt)
 
-[Exekverbar version av projektet](http://tstjostudent.github.io/Projektet)
+[Exekverbar version av projektet kommer.](http://c9.io/hg222dt/projekt_1ik415)
+[Länk till projektet på Cloud 9](http://c9.io/hg222dt/projekt_1ik415)
 
 ## Beskrivning av projektet
 Syftet kommer vara att skapa en site för att lansera och sälja en konsumentprodukt. Siten ska fungera som en kampanj-site, med funktionalitet för kunna beställa produkten. Kundens beställning kommer att kunna göras via siten, men i grunden är det en annan underleverantör som direkt tar emot alla uppgifter kring respektive order, och sköter allting därefter.
