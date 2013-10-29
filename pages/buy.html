@@ -15,29 +15,98 @@
         <div id="container">
             <div id="navHeader">
                 <div id="menuLeft">
-                    <a href="#">Nu!</a>
+                    <a href="news.html">Nu!</a>
                 </div>
                 <div id="menuMid">
-                    <a href="#">Mr. Foot</a>
+                    <a href="../index.html">Mr. Foot</a>
                     <img src="#LOGO#">
                 </div>
                 <div id="menuRight">
-                    <a href="#">Köp!</a>
+                    <a href="buy.html">Köp!</a>
                 </div>
             </div>
             <div id="content">
                 <div id="cashierDesk">
                     <div id="topContnet">
                         
+                        
                     </div>
                     <div id="basket">
-                        
+                        <h2>Din varukorg</h2>
+                        <div id="cartItems">
+                            <ul>
+                                <li>
+                                    Mr. Foot - Röd, <strong>2 st</strong>, a' 99 kr
+                                </li>
+                                <li>
+                                    Mr. Foot - Blå <strong>3 st</strong>, a' 99 kr
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="cartValues">
+                            <ul>
+                                <li>
+                                    - 198 kr
+                                </li>
+                                <li>
+                                    - 297 kr
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="subtotal">
+                            Totalt: 495 kr
+                        </div>
                     </div>
                     <div id="buyMoreShelf">
-                        
+                        <h2>Köpa fler?</h2>
+                        <select name="productPicker">
+                            <option value="Vit">Vit</option>
+                            <option value="Röd">Röd</option>
+                            <option value="Blå">Blå</option>
+                            <option value="Lila">Lila</option>
+                        </select>
+                        <select name="amountProduct">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
                     </div>
                     <div id="orderForm">
-                        
+                        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+                            <fieldset>
+                                <legend><strong>Fyll i dina uppgifter</strong></legend>
+                                <lable for="text">Förnamn</lable>
+                                <br>
+                                <input type="text" name="Meddelande" id="firstName" />
+                                <br>
+                                <lable for="text">Efternamn</lable>
+                                <br>
+                                <input type="text" name="Meddelande" id="lastName" />
+                                <br>
+                                <lable for="email">E-post</lable>
+                                <br>
+                                <input type="email" name="email" id="email" />
+                                <br>
+                                <lable for="radio">Radio-buttons</lable>
+                                <br>
+                                <input type="radio" name="Radio" id="radio" />
+                                <br>
+                                <input type="radio" name="Radio2" id="radio" />
+                                <br>
+                                <lable for="Checkbox">En checkbox</lable>
+                                <br>
+                                <input type="checkbox" name="checkbox1" id="checkbox" />
+                                <br>
+                            </fieldset>
+                            <input type="submit" value="Bekräfta din order" id="confirmButton"/>
+                        </form>
                     </div>
                 </div>
             </div>
